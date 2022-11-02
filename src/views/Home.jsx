@@ -18,7 +18,7 @@ export const Home = () => {
                     <p>La Experiencia Definitiva De Diseño</p>
                 </Col>
                 <Col sm={12} md={2} lg={2} id="boton">
-                    <Button variant="outline-secondary">Comenzar <FontAwesomeIcon icon="fa-solid fa-arrow-right"/></Button>
+                    <Button variant="outline-secondary" href='/product'>Comenzar <FontAwesomeIcon icon="fa-solid fa-arrow-right"/></Button>
                 </Col>
                 <Col sm={12} md={6} lg={6} id="imagenCont">
                     <Image src={imagen} id='imagen'/>

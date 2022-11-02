@@ -10,6 +10,7 @@ import { Access } from './views/Access';
 import { Team } from './views/Team';
 import { NotFound } from './views/NotFound';
 import { Home } from './views/Home';
+import { Product } from './views/Product';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 library.add(fas)
@@ -24,6 +25,7 @@ root.render(
         <Route path="/access" element={<Access/>} />
         <Route path="/team" element= { <Team/> } />
         <Route path="*" element= { <NotFound/> } />
+        <Route path="/product" element={<Product/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>
