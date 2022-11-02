@@ -1,0 +1,43 @@
+
+@media (min-width: 1400px){
+    .container {
+        max-width: 2500px;
+    }
+}
+@font-face {
+    font-family: 'Glacial';
+    src: url('../styles/fonts/glacial/GlacialIndifference-Regular.otf');
+}
+
+#header {
+    height: 10em;
+    margin-bottom: 5em;
+    background-color: #f7d1ba;
+    --bs-navbar-nav-link-padding-x: 2rem;
+    height: 15vh;
+    width: 100vw;
+}
+
+#basic-navbar-nav {
+    justify-content: end;
+    flex-grow: 0 !important;
+}
+.nav-link {
+    color: #a3543d;
+    font-family: 'Glacial';
+    font-size: 1.2em;
+}
+.nav-link:hover {
+    font-weight: bold;
+    color: #a3543d;
+}
+.show {
+    color: #a3543d;
+}
+.me-auto {
+    display: flex;
+    flex-direction: column;
+    justify-content:right;
+    align-items: flex-end;
+    background-color: #f7d1ba;
+}

@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Glacial';
+    src: url('../styles/fonts/glacial/GlacialIndifference-Regular.otf');
+}
+@font-face {
+    font-family: 'Playfair';
+    src: url('../styles/fonts/playfair-display/PlayfairDisplay-Regular.otf');
+}
+@media (max-width: 900px){
+   #texto{
+         font-size: 14px!important;
+   }
+   .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+}
+#home {
+    width: 100%;
+    height: auto;
+}
+#imagen {
+    border-radius: 50% 1em 1em 1em !important;
+    width: 60%;
+}
+#texto {
+    margin-top:1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Playfair';
+    font-size: 1.5em;
+    padding-left: 3em;
+}
+#texto h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+#boton {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+#imagenCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-outline-secondary {
+    background-color: #a3543d;
+    color: white;
+    border-color: #a3543d;
+    height: 4em;
+    width: 10em;
+    border-radius: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Glacial';
+    font-size: 1.4em;
+    margin: 2em;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #f7d1ba;
+    color: #a3543d;
+    border-color: #a3543d;
+}
+
